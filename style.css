@@ -7,4 +7,13 @@ body {
   width: 32px;
   height: 32px;
   z-index: 9999;
+  animation: rotateCursor 5s linear infinite;
+}
+@keyframes rotateCursor {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
