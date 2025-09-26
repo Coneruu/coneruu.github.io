@@ -1,7 +1,7 @@
-<script>
+document.addEventListener('DOMContentLoaded', function () {
   const cursor = document.getElementById('custom-cursor');
-  document.addEventListener('mousemove', e => {
+  document.addEventListener('mousemove', function (e) {
     cursor.style.left = e.clientX + 'px';
     cursor.style.top = e.clientY + 'px';
   });
-</script>
+});
