@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('click', () => {
-  const audio = document.getElementById("clickAudio");
+  const audio = document.getElementById('clickAudio');
   audio.play();
 });
