@@ -5,3 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     cursor.style.top = (e.clientY - 46) + 'px';
   });
 });
+
+document.addEventListener('click', () => {
+  const audio = document.getElementById('myAudio');
+  audio.play();
+});
