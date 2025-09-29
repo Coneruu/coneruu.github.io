@@ -59,22 +59,3 @@ body {
 .dropdown:hover .submenu {
   display: block;
 }
-html, body, * {
-  cursor: none !important;
-}
-#custom-cursor {
-  position: fixed;
-  pointer-events: none;
-  width: 92px;
-  height: 92px;
-  z-index: 9999;
-  animation: rotateCursor 5s linear infinite;
-}
-@keyframes rotateCursor {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
