@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Dropdown Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul class="menu">
+      <li class="dropdown">
+        <a href="#">Gaming</a>
+        <ul class="submenu">
+          <li><a href="games.html">Games</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">News</a>
+        <ul class="submenu">
+          <li><a href="world.html">World</a></li>
+          <li><a href="tech.html">Tech</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">More</a>
+        <ul class="submenu">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
