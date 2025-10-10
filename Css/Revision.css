@@ -1,4 +1,4 @@
-html, body, * {
+html:not("e") {
  background-color: #000000;
  color: red;
 }
